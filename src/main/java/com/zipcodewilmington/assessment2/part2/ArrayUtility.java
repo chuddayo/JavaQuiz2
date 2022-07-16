@@ -40,7 +40,7 @@ public class ArrayUtility {
         return counter;
     }
 
-    public Integer mostCommon(Integer[] array) {
+    public static Integer mostCommon(Integer[] array) {
         List<Integer> arrayCopy = new ArrayList<>(Arrays.asList(array));
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
         for (Integer i : arrayCopy) {

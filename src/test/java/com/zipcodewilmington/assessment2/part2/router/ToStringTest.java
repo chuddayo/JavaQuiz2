@@ -36,7 +36,6 @@ public class ToStringTest {
                 new Pair<>("/instructors", "InstructorController"));
     }
 
-    @Test
     public void test(Pair<String, String>... pairs) {
         // given
         StringBuilder expectedString = new StringBuilder();
